@@ -29,8 +29,13 @@ nb plugin install nonebot-plugin-runagain
 ## 📖 用法
 
 - `@` `{COMMAND_START}` `stop|shutdown|停机`
+
   停止 Bot 运行。
+
   使用者需要为 Bot 的 SuperUser。
+
 - `@` `{COMMAND_START}` `restart|reboot|重启`
+
   停止运行并重启 Bot。
+
   使用者需要为 Bot 的 SuperUser。
