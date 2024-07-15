@@ -1,0 +1,15 @@
+[project]
+name = "nonebot-plugin-runagain"
+version = "0.1.0"
+description = "适用于 NoneBot2 实例的停机与重启控制插件"
+authors = [
+    {name = "HivertMoZara", email = "worldmozara@163.com"},
+]
+license = {text = "MIT"}
+dependencies = ["nonebot2>=2.2.0"]
+requires-python = ">=3.9,<4"
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/NCBM/nonebot-plugin-runagain"
+Repository = "https://github.com/NCBM/nonebot-plugin-runagain"
