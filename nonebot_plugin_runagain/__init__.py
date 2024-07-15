@@ -27,6 +27,7 @@ __plugin_meta__ = PluginMetadata(
     ),
     type="application",
     homepage="https://github.com/NCBM/nonebot-plugin-runagain",
+    supported_adapters=None
 )
 
 def _restart():
