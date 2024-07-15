@@ -26,7 +26,7 @@ _✨ 适用于 NoneBot2 实例的停机与重启控制插件 ✨_
 nb plugin install nonebot-plugin-runagain
 ```
 
-# 📖 用法
+## 📖 用法
 
 - `@` `{COMMAND_START}` `stop|shutdown|停机`
   停止 Bot 运行。
