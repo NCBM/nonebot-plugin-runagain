@@ -98,6 +98,7 @@ async def do_restart():
         _none_stop()
     if "fastapi" in driver.type or "quart" in driver.type:
         server = _uvicorn_getserver()
+        server.force_exit = True
         await server.shutdown(_uvicorn_getsocket())
         try:
             _restart()
